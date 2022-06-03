@@ -1,9 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Body from './components/Body.js';
+import Footer from './components/Footer.js';
+import Header from './components/Header.js';
+import Icon from './components/Icon.js';
+import Navbar from './components/Navbar.js';
+import NavLink from './components/NavLink.js';
 
 function App() {
   return (
+    
     <div className="App">
+      <Header/>
+      <Body/>
+      <Footer/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
